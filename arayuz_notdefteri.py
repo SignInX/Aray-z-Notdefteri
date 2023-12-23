@@ -1,6 +1,6 @@
 import sys
 import os
-from PyQt5.QtWidgets import QWidget, QFileDialog, QApplication, QVBoxLayout, QTextEdit, qApp, QMainWindow, QAction, QMessageBox
+from PyQt5.QtWidgets import QWidget, QFileDialog, QApplication, QVBoxLayout, QTextEdit, QApp, QMainWindow, QAction, QMessageBox
 from PyQt5.QtCore import QDateTime
 
 
@@ -282,7 +282,7 @@ class Menu(QMainWindow):
 
         pass
 
-    def sonra_bull(Self):
+    def sonra_bull(self):
 
         pass
 
